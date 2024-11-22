@@ -1,5 +1,9 @@
+from textnode import TextNode, TextType
+
+
 def main():
-    print("Hello, World!")
+    node = TextNode("Hi there!", TextType.BOLD, "www.google.com")
+    print(node)
 
 
 main()

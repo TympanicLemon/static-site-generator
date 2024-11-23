@@ -22,5 +22,3 @@ class HTMLNode:
             f"children={self.children}\n"
             f"props={self.props}"
         )
-
-
